@@ -9,12 +9,6 @@
 
 - One of the core benefits of Azle is that it allows web developers to bring their TypeScript/JavaScript skills to the IC. For example, Azle allows the use of various npm packages and VS Code intellisense.
 
-As for the IC, we believe its main benefits can be broken down into the following categories:
-
-* Ownership
-* Security
-* Developer Experience
-
 - It's important to note that both Azle and the IC are early-stage projects. The IC officially launched in May of 2021, and Azle reached beta in April of 2022.
 
 # Internet Computer Overview
@@ -29,6 +23,13 @@ Nodes are assigned into groups known as subnets. Each subnet attempts to maximiz
 The subnets vary in size. Generally speaking the larger the size of the subnet the more secure it will be. Subnets currently range in size from 13 to 40 nodes, with most subnets having 13 nodes.
 
 IC applications, known as canisters, are deployed to specific subnets. They are then accessible through Internet Protocol requests such as HTTP. Each subnet replicates all canisters across all of its replicas. A consensus protocol is run by the replicas to ensure Byzantine Fault Tolerance.
+
+As for the IC, we believe its main benefits can be broken down into the following categories:
+
+* Ownership
+* Security
+* Developer Experience
+
 
 View the IC Dashboard to explore all data centers, subnets, node operators, and many other aspects of the IC.
 
