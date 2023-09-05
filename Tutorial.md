@@ -362,8 +362,8 @@ dfx deploy --network ic canister_name
 
 ```
 
-:::tip
-Congratulations you can now  check out the **[dacade x ICP course and get you some free ICP token reward ](https://dacade.org/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)**, to build your own Azle Smart Contract.
-:::
+
+Congratulations🎉 you can now  check out the **[dacade x ICP course and get you some free ICP token reward ](https://dacade.org/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)**, to build your own Azle Smart Contract.
+
 
 To learn Deeper about Azle click this link https://demergent-labs.github.io/azle/query_methods.html
