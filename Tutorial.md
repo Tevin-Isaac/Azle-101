@@ -53,7 +53,8 @@ You should be using a *nix environment (Linux, Mac OS, WSL if using Windows) wit
  * Node.js 18
  * dfx 0.14.2
  * Rust
-We highly recommend using nvm to install Node.js (and npm, which is included with Node.js). Run the following commands to install Node.js and npm with nvm:
+
+- We highly recommend using nvm to install Node.js (and npm, which is included with Node.js). Run the following commands to install Node.js and npm with nvm:
 
 ```bash 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
