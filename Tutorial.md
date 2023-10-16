@@ -1,6 +1,8 @@
 
 # Internet Computer Overview
 
+![slide___1](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/4f59fe17-45a0-4182-a75a-d870290d3f44)
+
 The Internet Computer is a blockchain that runs canister smart contracts, which are code units bundling together WebAssembly bytecode and the memory pages the bytecode runs in. 
 
 The Internet Computer is composed of individual subnet blockchains running in parallel and connected together by the use of chain key cryptography. 
