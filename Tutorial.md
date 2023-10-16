@@ -385,6 +385,7 @@ URLs:
 ```
 Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai to access the web UI.
 
+![upload_81a8c18388a8534ed8002edccc979f13](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/9bac0318-67ec-4b96-8473-6a28351a5ccf)
 
 # @dfinity/agent
 
