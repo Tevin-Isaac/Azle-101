@@ -12,7 +12,7 @@ Welcome to the Azle Language Course! This course is designed to introduce you to
 - [Resources](#resources)
 - [License](#license)
 
-## Introduction
+## 🌱Introduction
 Azle is a programming language specifically designed for the ICP blockchain, known for its simplicity, readability, and native integration with the ICP platform. This course aims to equip you with the skills and knowledge necessary to develop smart contracts in Azle.
 
 ## Course Overview
@@ -20,7 +20,7 @@ Azle is a programming language specifically designed for the ICP blockchain, kno
 - Learn how Azle is used in the context of the ICP blockchain.
 - Gain practical experience by developing smart contracts in Azle.
 
-## Prerequisites
+## 🗈Prerequisites
 Before starting this course, it is recommended to have a basic understanding of:
 - Blockchain technology and smart contracts.
 - General programming concepts.

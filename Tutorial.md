@@ -12,8 +12,6 @@ The Internet Computer (IC) is a decentralized cloud platform. Actually, it is be
 
 # Canisters Overview
 
-![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
-
 Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript, though the primary language for canister development is Motoko, since Motoko has been developed specifically for canister development on the IC.
 
 We'll dive further into Motoko and other languages in the next sections.
@@ -22,6 +20,7 @@ To create canister smart contracts it is common practice to use an SDK. The IC S
 
 Because the Internet Computer blockchain supports dapps compiled to standard WebAssembly modules, one can use many different programming languages to create IC canister smart contracts. 
 To build a canister with a particular programming language, one needs a canister development kit (CDK) for their particular language. A CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. 
+
 To make starting easier, the IC SDK already comes with CDK for multiple languages.
 
 In theory, any language that can be compiled into a WebAssembly module, can produce modules tailored for the IC deployable as an ICP smart contract.
@@ -32,6 +31,11 @@ As a developer you can generally interact with your canister in three ways:
 * dfx command line
 * dfx web UI
 * @dfinity/agent
+
+# canister procsss
+
+![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
+
 
 Deployed canisters.
 ```
@@ -54,7 +58,7 @@ Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-f
 
 - It's important to note that both Azle and the IC are early-stage projects. The IC officially launched in May of 2021, and Azle reached beta in April of 2022.
 
-## Prerequisites​
+## 🗈Prerequisites​
 
 To follow  you will need to have the following:
 * A connection to the internet.
@@ -437,4 +441,4 @@ Reach out to our Telegram or whatsapp group.
 Congratulations🎉 you can now  check out the **[dacade x ICP course and get you some free ICP token reward ](https://dacade.org/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)**, to build your own Azle Smart Contract.
 
 
-To learn Deeper about Azle click this link https://demergent-labs.github.io/azle/query_methods.html
+To learn Deeper about Azle click refer to this link https://demergent-labs.github.io/azle/query_methods.html
