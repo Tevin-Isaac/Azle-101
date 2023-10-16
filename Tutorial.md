@@ -32,7 +32,7 @@ As a developer you can generally interact with your canister in three ways:
 * dfx web UI
 * @dfinity/agent
 
-# canister procsss
+# canister processs for a developer
 
 ![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
 
