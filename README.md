@@ -1,4 +1,5 @@
 # Azle Language Course
+![logo](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/be41dda9-84ef-4ca4-a64c-cceccd5ff8c4)
 
 Welcome to the Azle Language Course! This course is designed to introduce you to the Azle programming language and its applications in the context of the Internet Computer Protocol (ICP) blockchain. By the end of this course, you will have a solid understanding of Azle and be ready to develop smart contracts for the ICP blockchain.
 
