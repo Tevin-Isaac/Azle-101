@@ -38,6 +38,20 @@ As a developer you can generally interact with your canister in three ways:
 
 ![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
 
+## IC SDK vs CDK vs dfx
+There are a few components worth expanding on:
+
+IC SDK: this is the SDK created by DFINITY for creating and managing canisters. This is just one SDK in the ICP community and a common entry point for developers.
+
+Canister Development Kit (CDK): a CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. The IC SDK comes with a few CDKs already installed for you so you can use them in the language of your choice. For example, the IC SDK comes with the Rust CDK already installed. CDKs that are not installed but available for developers include the:
+
+Python CDK.
+TypeScript CDK.
+C++ CDK.
+Since CDKs are components used by the SDK, some developers choose to use the CDK directly (without the IC SDK), but typically are used as part of the whole IC SDK.
+
+dfx: dfx is the command-line interface for the IC SDK. This is why many commands for the IC SDK start with the command "dfx .." such as dfx new or dfx stop.
+
 
 Deployed canisters.
 ```
