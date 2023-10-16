@@ -1,5 +1,50 @@
 
-##  🌱Introduction
+# Internet Computer Overview
+
+The Internet Computer is a blockchain that runs canister smart contracts, which are code units bundling together WebAssembly bytecode and the memory pages the bytecode runs in. 
+
+The Internet Computer is composed of individual subnet blockchains running in parallel and connected together by the use of chain key cryptography. 
+This means that canisters running on a subnet can seamlessly call canisters hosted in any other subnet of the Internet Computer blockchain. Moreover, the governance system of the Internet Computer can dynamically increase the capacity of the Internet Computer by adding new subnets, allowing dapps to scale out.
+
+Developers can thus build new dapps consisting of multiple canisters running in parallel on different subnets and possibly integrate them with existing canisters already running on the Internet Computer.
+
+The Internet Computer (IC) is a decentralized cloud platform. Actually, it is better thought of as a progressively decentralizing cloud platform. Its full vision is yet to be fulfilled.
+
+# Canisters Overview
+
+![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
+
+Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript, though the primary language for canister development is Motoko, since Motoko has been developed specifically for canister development on the IC.
+
+We'll dive further into Motoko and other languages in the next sections.
+
+To create canister smart contracts it is common practice to use an SDK. The IC SDK is a common entry point. The IC SDK supports a few programming languages out of the box.
+
+Because the Internet Computer blockchain supports dapps compiled to standard WebAssembly modules, one can use many different programming languages to create IC canister smart contracts. 
+To build a canister with a particular programming language, one needs a canister development kit (CDK) for their particular language. A CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. 
+To make starting easier, the IC SDK already comes with CDK for multiple languages.
+
+In theory, any language that can be compiled into a WebAssembly module, can produce modules tailored for the IC deployable as an ICP smart contract.
+
+
+As a developer you can generally interact with your canister in three ways:
+
+* dfx command line
+* dfx web UI
+* @dfinity/agent
+
+Deployed canisters.
+```
+URLs:
+  Backend canister via Candid interface:
+    azle_hello_world: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
+```
+```
+Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai or the equivalent URL from your terminal to access the web UI and interact with your canister.
+```
+
+##  🌱Introduction to Azle
+
 - Azle is a TypeScript Canister Development Kit (CDK) for the Internet Computer (IC). In other words, it's a TypeScript/JavaScript runtime for building applications (canisters) on the IC.
 - Azle is currently developed by Demergent Labs, a for-profit company with a grant from DFINITY.
 
@@ -7,45 +52,17 @@
 
 - Azle intends to be a full TypeScript/JavaScript environment for the IC (a decentralized cloud platform), with support for all of the TypeScript/JavaScript language and as many relevant host APIs as possible. These host APIs will be similar to those available in the Node.js and web browser environments.
 
-- One of the core benefits of Azle is that it allows web developers to bring their TypeScript/JavaScript skills to the IC. For example, Azle allows the use of various npm packages and VS Code intellisense.
-
 - It's important to note that both Azle and the IC are early-stage projects. The IC officially launched in May of 2021, and Azle reached beta in April of 2022.
 
-# Internet Computer Overview
-The Internet Computer (IC) is a decentralized cloud platform. Actually, it is better thought of as a progressively decentralizing cloud platform. Its full vision is yet to be fulfilled.
+## Prerequisites​
 
-It aims to be owned and operated by many independent entities in many geographies and legal jurisdictions throughout the world. This is in opposition to most traditional cloud platforms today, which are generally owned and operated by one overarching legal entity.
-
-The IC is composed of computer hardware nodes running the IC protocol software. Each running IC protocol software process is known as a replica.
-
-Nodes are assigned into groups known as subnets. Each subnet attempts to maximize its decentralization of nodes according to factors such as data center location and node operator independence.
-
-The subnets vary in size. Generally speaking the larger the size of the subnet the more secure it will be. Subnets currently range in size from 13 to 40 nodes, with most subnets having 13 nodes.
-
-IC applications, known as canisters, are deployed to specific subnets. They are then accessible through Internet Protocol requests such as HTTP. Each subnet replicates all canisters across all of its replicas. A consensus protocol is run by the replicas to ensure Byzantine Fault Tolerance.
-
-As for the IC, we believe its main benefits can be broken down into the following categories:
-
-* Ownership
-* Security
-* Developer Experience
-
-
-View the IC Dashboard to explore all data centers, subnets, node operators, and many other aspects of the IC.
-
-# Canisters Overview
-Canisters are Internet Computer (IC) applications. They are the encapsulation of your code and state, and are essentially Wasm modules.
-
-State can be stored on the 4 GiB heap or in a larger 64 GiB location called stable memory. You can store state on the heap using your language's native global variables. You can store state in stable memory using low-level APIs or special stable data structures that behave similarly to native language data structures.
-
-State changes must go through a process called consensus. The consensus process ensures that state changes are Byzantine Fault Tolerant. This process takes a few seconds to complete.
-
-Operations on canister state are exposed to users through canister methods. These methods can be invoked through HTTP requests. Query methods allow state to be read and are low-latency. Update methods allow state to be changed and are higher-latency. Update methods take a few seconds to complete because of the consensus process.
-
-
-
+To follow  you will need to have the following:
+* A connection to the internet.
+* A command line interface.
+* Visual Studio (VS) Code
 
 ##  ⚠️ Installation Requirements
+
 Follow the instructions exactly as stated below to avoid issues.
 
 You should be using a *nix environment (Linux, Mac OS, WSL if using Windows) with bash and have the following installed on your system:
@@ -75,7 +92,9 @@ echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.bashrc"
 ```
 
 
-## Hello World
+## Hello World Canister Smart contract
+
+* Method 1(Quick Start)
 
 ```bash 
 npx azle new hello_world
@@ -91,7 +110,7 @@ npm run canister_call_get_message
 
 ```
 
-* Methodical start
+* Method 2
 
 The project directory and file structure
 Assuming you're starting completely from scratch, run these commands to setup your project's directory and file structure:
@@ -137,9 +156,11 @@ $update;
 export function setMessage(newMessage: string): void {
     message = newMessage; // This change will be persisted
 }
+
 ```
  
-- Breakdown
+- **`Breakdown`**
+
 ```
 import { $query, $update } from 'azle'; 
 
@@ -176,7 +197,7 @@ That's it! We've created a very simple getter/setter Hello World application. Bu
 
 To do that, we'll need to setup the rest of our project.
 
-* tsconfig.json
+- **`tsconfig.json`** 
 
 ```
 {
@@ -192,7 +213,7 @@ To do that, we'll need to setup the rest of our project.
 }
 ```
 
-* dfx.json
+- **`dfx.json`**
 ```
 {
     "canisters": {
@@ -209,52 +230,14 @@ To do that, we'll need to setup the rest of our project.
 
 ```
 
-- Local deployment
 
-```
-dfx start --background
-```
-First startup the replica
+##  Deployment
 
-```
-dfx deploy
-```
-
-- Interacting with your canister from the command line
-```
-dfx canister call azle_hello_world getMessage
-```
-We should see ("") representing an empty message.
-
-
-Now let's yell Hello World!:
-
-```
-dfx canister call azle_hello_world setMessage '("Hello World!")'
-```
-
-Retrieve the message:
-```
-dfx canister call azle_hello_world getMessage
-```
-We should see ("Hello World!")
-
-- Interacting with your canister from the web UI
-
-```
-Deployed canisters.
-URLs:
-  Backend canister via Candid interface:
-    azle_hello_world: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
-```
-Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai or the equivalent URL from your terminal to access the web UI and interact with your canister.
-
-- Deployment
 There are two main Internet Computer (IC) environments that you will generally interact with: the local replica and mainnet.
 
 When developing on your local machine, our recommended flow is to start up a local replica in your project's root directoy and then deploy to it for local testing.
 
-Start
+- Start
 ```
 dfx start
 ```
@@ -264,7 +247,7 @@ dfx start
 dfx start --background
 ```
 
-Stop
+- Stop
 ```
 dfx stop
 ```
@@ -288,6 +271,71 @@ dfx deploy canister_name
 ```
 
 
+## Candid file
+
+A Candid file is an interface description language (IDL) file used in the Internet Computer blockchain project.
+It provides a language-independent description of a canister’s interfaces, including the names, parameters, result formats, and data types for each function a canister defines. This allows for interoperability between frontends and services written in different languages, such as Motoko, Rust, or JavaScript.
+Candid files are typically denoted with a *.did* extension and they play a crucial role in ensuring that data is properly converted from its definition in a programming language (like Rust) to run safely on the Internet Computer blockchain.
+Candid has a variety of features that make it a particularly good choice for developing dapps on the Internet Computer. 
+These features include:
+
+* Candid's implementations map the Candid value directly to the values and types of the host language, meaning developers do not construct or deconstruct some abstract Candid value.
+* Candid defines rules for how series and their associated interface can be upgraded in a simple manner.
+* Candid is a higher-order language, meaning it can receive more than plain data such as references to methods and services.
+* Candid has native support for specific IC features, such as query annotation.
+
+
+
+A typical interface description in Candid might look like this:
+```
+service counter : {
+  add : (nat) -> ();
+  subtract : (nat) -> ();
+  get : () -> (int) query;
+  subscribe : (func (int) -> ()) -> ();
+}
+```
+In this example, the described service counter consists of the following public methods:
+
+* The add and subtract methods change the value of a counter.
+
+* The get method reads the current value of a counter.
+
+* The subscribe method can be used to invoke another function, for example, to invoke a notification callback method each time the counter value changes
+
+:::tip
+ To learn more about candid click this link :https://internetcomputer.org/docs/current/developer-docs/backend/candid/candid-concepts
+:::
+
+
+
+
+
+## Interacting with your hello world canister from the command line
+```
+dfx canister call azle_hello_world getMessage
+```
+We should see ("") representing an empty message.
+
+
+Now let's yell Hello World!:
+
+```
+dfx canister call azle_hello_world setMessage '("Hello World!")'
+```
+
+Retrieve the message:
+```
+dfx canister call azle_hello_world getMessage
+```
+We should see ("Hello World!")
+
+- Interacting with your canister from the web UI
+
+
+
+
+
 - Interacting with your canister
 
 
@@ -297,7 +345,7 @@ As a developer you can generally interact with your canister in three ways:
 * dfx web UI
 * @dfinity/agent
 
-- dfx command line
+# dfx command line
 
 ```
 # assume a canister named my_canister
@@ -322,7 +370,7 @@ dfx canister call my_canister methodName '("This is a Candid string argument")'
 
 ```
 
-- dfx web UI
+# dfx web UI
 
 ```
 Deployed canisters.
@@ -334,10 +382,9 @@ URLs:
 Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai to access the web UI.
 
 
-- @dfinity/agent
+# @dfinity/agent
 
 @dfinity/agent is the TypeScript/JavaScript client library for interacting with canisters on the IC. If you are building a client web application, this is probably what you'll want to use.
-
 There are other agents for other languages as well:
 
 * Java
@@ -345,7 +392,20 @@ There are other agents for other languages as well:
 * Rust
 
 
-- Deploying to mainnet
+# Local deployment
+
+```
+dfx start --background
+```
+First startup the replica
+
+```
+dfx deploy
+```
+Then run the second command once dfx is running in the background.
+
+
+## Deploying to mainnet
 
 Assuming you are setup with cycles, then you are ready to deploy to mainnet.
 
@@ -363,6 +423,15 @@ To deploy an individual canister:
 dfx deploy --network ic canister_name
 
 ```
+
+# Common deployment issues
+If you run into an error during deployment, try the following:
+
+* Ensure that you have followed the instructions correctly in the installation chapter, especially noting the build dependencies
+* Start the whole deployment process from scratch by running the following commands: dfx stop or simply terminate dfx in your terminal, dfx start --clean, npx azle clean, dfx deploy
+* Look for more error output by adding the --verbose flag to the build command in your dfx.json file like so: "build": "npx azle build hello_world --verbose
+* Look for errors in each of the files in ~/.config/azle/rust/[rust_version]/logs
+Reach out to our Telegram or whatsapp group.
 
 
 Congratulations🎉 you can now  check out the **[dacade x ICP course and get you some free ICP token reward ](https://dacade.org/communities/icp/courses/typescript-smart-contract-101/learning-modules/b14741ea-ee33-43a4-a742-9cdc0a6f0d1c)**, to build your own Azle Smart Contract.

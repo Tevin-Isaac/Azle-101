@@ -26,12 +26,12 @@ Before starting this course, it is recommended to have a basic understanding of:
 - General programming concepts.
 
 ## Course Structure
-This course is structured as a series of slides. You can access the slides in [PDF format here](link-to-pdf-file.pdf).
+This course is structured as a series of slides. You can access the slides in [PDF format here](https://docs.google.com/document/d/1OW3oT8F9pumYg3hmybrHFB8T0VpDwDgRVE5PfVkHFJI/edit).
 
 ## Getting Started
 To begin the course, you can simply follow the slides and examples provided. Additionally, you may want to set up your development environment for Azle by following these steps:
-1. [Install the Azle Compiler](link-to-compiler-installation-guide).
-2. [Set up an ICP Development Environment](link-to-icp-environment-setup).
+1. [Install the Azle Compiler](https://demergent-labs.github.io/azle/installation.html).
+2. [Set up an ICP Development Environment](https://internetcomputer.org/docs/current/developer-docs/setup/quickstart/#install-the-ic-sdk).
 3. Clone this repository to access code examples and exercises.
 
 ## Course Content
@@ -53,9 +53,9 @@ The course content includes the following topics:
 - Best Practices
 
 ## Resources
-- [Official Azle Documentation](link-to-azle-docs)
-- [ICP Developer Portal](link-to-icp-developer-portal)
-- [Additional Learning Resources](link-to-more-resources)
+- [Official Azle Documentation](https://demergent-labs.github.io/azle/the_azle_book.html)
+- [ICP Developer Portal](https://internetcomputer.org/docs/current/homel)
+- [Additional Learning Resources](https://internetcomputer.org/docs/current/developer-docs/backend/choosing-language)
 
 ## License
 This course content is released under the [MIT License](link-to-license-file).
