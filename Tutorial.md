@@ -3,14 +3,9 @@
 
 ![slide___1](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/4f59fe17-45a0-4182-a75a-d870290d3f44)
 
-The Internet Computer is a blockchain that runs canister smart contracts, which are code units bundling together WebAssembly bytecode and the memory pages the bytecode runs in. 
+The Internet Computer (IC) is a decentralized cloud platform that is owned and operated by many independent entities worldwide. It consists of computer hardware nodes running the IC protocol software, with each node known as a replica. These replicas are organized into subnets, which vary in size and aim to maximize decentralization. IC applications, called canisters, are deployed to specific subnets and can be accessed through Internet Protocol requests. The IC utilizes a consensus protocol to ensure Byzantine Fault Tolerance.
 
-The Internet Computer is composed of individual subnet blockchains running in parallel and connected together by the use of chain key cryptography. 
-This means that canisters running on a subnet can seamlessly call canisters hosted in any other subnet of the Internet Computer blockchain. Moreover, the governance system of the Internet Computer can dynamically increase the capacity of the Internet Computer by adding new subnets, allowing dapps to scale out.
-
-Developers can thus build new dapps consisting of multiple canisters running in parallel on different subnets and possibly integrate them with existing canisters already running on the Internet Computer.
-
-The Internet Computer (IC) is a decentralized cloud platform. Actually, it is better thought of as a progressively decentralizing cloud platform. Its full vision is yet to be fulfilled.
+In simpler terms, the Internet Computer is a network of computers that work together to provide a decentralized cloud platform. This platform allows developers to deploy applications, called canisters, which can be accessed through the internet. The network is designed to be highly decentralized, with multiple independent entities operating the hardware nodes. This decentralization ensures the security and reliability of the platform.
 
 # Canisters Overview
 
@@ -38,7 +33,7 @@ As a developer you can generally interact with your canister in three ways:
 
 ![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
 
-## IC SDK vs CDK vs dfx
+## IC SDK vs CDK
 There are a few components worth expanding on:
 
 * IC SDK: this is the SDK created by DFINITY for creating and managing canisters. This is just one SDK in the ICP community and a common entry point for developers.
