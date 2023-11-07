@@ -38,7 +38,15 @@ As a developer you can generally interact with your canister in three ways:
 
 ![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
 
-
+Deployed canisters.
+```
+URLs:
+  Backend canister via Candid interface:
+    azle_hello_world: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
+```
+```
+Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai or the equivalent URL from your terminal to access the web UI and interact with your canister.
+```
 
 ## IC SDK vs CDK
 There are a few components worth expanding on:
@@ -58,15 +66,7 @@ Since CDKs are components used by the SDK, some developers choose to use the CDK
 * dfx: dfx is the command-line interface for the IC SDK. This is why many commands for the IC SDK start with the command "dfx .." such as dfx new or dfx stop.
 
 
-Deployed canisters.
-```
-URLs:
-  Backend canister via Candid interface:
-    azle_hello_world: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
-```
-```
-Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai or the equivalent URL from your terminal to access the web UI and interact with your canister.
-```
+
 
 
 ## 🗈Prerequisites​
