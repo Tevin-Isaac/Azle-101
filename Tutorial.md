@@ -7,6 +7,19 @@ The Internet Computer (IC) is a decentralized cloud platform that is owned and o
 
 In simpler terms, the Internet Computer is a network of computers that work together to provide a decentralized cloud platform. This platform allows developers to deploy applications, called canisters, which can be accessed through the internet. The network is designed to be highly decentralized, with multiple independent entities operating the hardware nodes. This decentralization ensures the security and reliability of the platform.
 
+##  🌱Introduction to Azle
+
+- Azle is a TypeScript Canister Development Kit (CDK) for the Internet Computer (IC). In other words, it's a TypeScript/JavaScript runtime for building applications (canisters) on the IC.
+
+- Azle is currently developed by Demergent Labs, a for-profit company with a grant from DFINITY.
+
+- Demergent Labs' vision is to accelerate the adoption of Web3, the Internet Computer, and sustainable open source.
+
+- Azle intends to be a full TypeScript/JavaScript environment for the IC (a decentralized cloud platform), with support for all of the TypeScript/JavaScript language and as many relevant host APIs as possible. These host APIs will be similar to those available in the Node.js and web browser environments.
+
+- It's important to note that both Azle and the IC are early-stage projects. The IC officially launched in May of 2021, and Azle reached beta in April of 2022.
+
+
 # Canisters Overview
 
 Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript and Motoko.
@@ -66,16 +79,6 @@ URLs:
 Open up http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai or the equivalent URL from your terminal to access the web UI and interact with your canister.
 ```
 
-##  🌱Introduction to Azle
-
-- Azle is a TypeScript Canister Development Kit (CDK) for the Internet Computer (IC). In other words, it's a TypeScript/JavaScript runtime for building applications (canisters) on the IC.
-- Azle is currently developed by Demergent Labs, a for-profit company with a grant from DFINITY.
-
-- Demergent Labs' vision is to accelerate the adoption of Web3, the Internet Computer, and sustainable open source.
-
-- Azle intends to be a full TypeScript/JavaScript environment for the IC (a decentralized cloud platform), with support for all of the TypeScript/JavaScript language and as many relevant host APIs as possible. These host APIs will be similar to those available in the Node.js and web browser environments.
-
-- It's important to note that both Azle and the IC are early-stage projects. The IC officially launched in May of 2021, and Azle reached beta in April of 2022.
 
 ## 🗈Prerequisites​
 
