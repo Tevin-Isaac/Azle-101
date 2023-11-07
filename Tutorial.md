@@ -9,16 +9,19 @@ In simpler terms, the Internet Computer is a network of computers that work toge
 
 # Canisters Overview
 
-Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript, though the primary language for canister development is Motoko, since Motoko has been developed specifically for canister development on the IC.
+Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript and Motoko.
 
-We'll dive further into Motoko and other languages in the next sections.
+![Screenshot from 2023-11-08 01-05-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/d2ed439c-d47d-4c0c-a1f6-eb51659ac5e5)
+![Screenshot from 2023-11-08 01-08-55](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/e445adf2-f65f-4105-807c-99846e2b574e)
+![Screenshot from 2023-11-08 01-10-30](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/8ec18e0c-bff4-4163-bc61-7a8212066921)
+![Screenshot from 2023-11-08 01-15-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/09a7deb2-f94f-42ce-beb2-b3737ff3f511)
+![Screenshot from 2023-11-08 01-15-57](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/bf490323-9627-4c75-8ec0-c55fc569b09e)
 
 To create canister smart contracts it is common practice to use an SDK. The IC SDK is a common entry point. The IC SDK supports a few programming languages out of the box.
 
 Because the Internet Computer blockchain supports dapps compiled to standard WebAssembly modules, one can use many different programming languages to create IC canister smart contracts. 
-To build a canister with a particular programming language, one needs a canister development kit (CDK) for their particular language. A CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. 
 
-To make starting easier, the IC SDK already comes with CDK for multiple languages.
+
 
 In theory, any language that can be compiled into a WebAssembly module, can produce modules tailored for the IC deployable as an ICP smart contract.
 
@@ -33,12 +36,17 @@ As a developer you can generally interact with your canister in three ways:
 
 ![process](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/626296bb-2aa1-4c75-a47c-e1248f3cad9e)
 
+
+
 ## IC SDK vs CDK
 There are a few components worth expanding on:
 
 * IC SDK: this is the SDK created by DFINITY for creating and managing canisters. This is just one SDK in the ICP community and a common entry point for developers.
 
 * Canister Development Kit (CDK): a CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. The IC SDK comes with a few CDKs already installed for you so you can use them in the language of your choice. For example, the IC SDK comes with the Rust CDK already installed. CDKs that are not installed but available for developers include the:
+To build a canister with a particular programming language, one needs a canister development kit (CDK) for their particular language. A CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. 
+
+To make starting easier, the IC SDK already comes with CDK for multiple languages.
 
 Python CDK.
 TypeScript CDK.
