@@ -12,6 +12,11 @@ In simpler terms, the Internet Computer is a network of computers that work toge
 # Canisters Overview
 
 Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript and Motoko.
+![Screenshot from 2023-11-15 00-03-28](https://github.com/demergent-labs/azle/assets/81568615/267199ec-82a2-4738-88c5-59e914175c74)
+![Screenshot from 2023-11-15 00-03-43](https://github.com/demergent-labs/azle/assets/81568615/0ef18b87-7d7c-4d7c-9f2f-fc7c1aa22f9c)
+![Screenshot from 2023-11-15 00-07-28](https://github.com/demergent-labs/azle/assets/81568615/7a47a938-ac7a-4cfe-99fb-20a08a6c0bc7)
+![Screenshot from 2023-11-15 01-06-10](https://github.com/demergent-labs/azle/assets/81568615/f43ddf61-ba39-4fb3-9f01-fc32603bdde8)
+![Screenshot from 2023-11-15 01-06-18](https://github.com/demergent-labs/azle/assets/81568615/05d54e32-4dfa-433a-a725-00f504b3c16d)
 
 ![Screenshot from 2023-11-08 01-05-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/d2ed439c-d47d-4c0c-a1f6-eb51659ac5e5)
 ![Screenshot from 2023-11-08 01-08-55](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/e445adf2-f65f-4105-807c-99846e2b574e)
