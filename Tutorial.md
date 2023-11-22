@@ -15,14 +15,23 @@ Canisters can be developed in a variety of languages, such as Rust, JavaScript, 
 ![Screenshot from 2023-11-15 00-03-28](https://github.com/demergent-labs/azle/assets/81568615/267199ec-82a2-4738-88c5-59e914175c74)
 ![Screenshot from 2023-11-15 00-03-43](https://github.com/demergent-labs/azle/assets/81568615/0ef18b87-7d7c-4d7c-9f2f-fc7c1aa22f9c)
 ![Screenshot from 2023-11-15 00-07-28](https://github.com/demergent-labs/azle/assets/81568615/7a47a938-ac7a-4cfe-99fb-20a08a6c0bc7)
-![Screenshot from 2023-11-15 01-06-10](https://github.com/demergent-labs/azle/assets/81568615/f43ddf61-ba39-4fb3-9f01-fc32603bdde8)
-![Screenshot from 2023-11-15 01-06-18](https://github.com/demergent-labs/azle/assets/81568615/05d54e32-4dfa-433a-a725-00f504b3c16d)
 
 ![Screenshot from 2023-11-08 01-05-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/d2ed439c-d47d-4c0c-a1f6-eb51659ac5e5)
 ![Screenshot from 2023-11-08 01-08-55](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/e445adf2-f65f-4105-807c-99846e2b574e)
 ![Screenshot from 2023-11-08 01-10-30](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/8ec18e0c-bff4-4163-bc61-7a8212066921)
-![Screenshot from 2023-11-08 01-15-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/09a7deb2-f94f-42ce-beb2-b3737ff3f511)
-![Screenshot from 2023-11-08 01-15-57](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/bf490323-9627-4c75-8ec0-c55fc569b09e)
+![Screenshot from 2023-11-20 09-25-10](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/c9a627f6-d958-4550-a43a-780e8bbbe477)
+![Screenshot from 2023-11-20 09-26-21](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/46713dfa-593c-421d-b84d-042771d6956c)
+![Screenshot from 2023-11-20 10-04-31](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/60b98d81-2aac-4e99-8444-be30282e18c5)
+
+
+
+![Screenshot from 2023-11-20 10-09-36](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/bef7c192-46c8-46e5-94bc-f89c4511e701)
+![Screenshot from 2023-11-20 10-12-22](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/399de13f-9e90-4a2b-8145-b38fee17015e)
+![Screenshot from 2023-11-20 10-13-29](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/3112c94e-7337-4729-b621-540c4e6e3857)
+
+![Screenshot from 2023-11-15 01-06-10](https://github.com/demergent-labs/azle/assets/81568615/f43ddf61-ba39-4fb3-9f01-fc32603bdde8)
+![Screenshot from 2023-11-15 01-06-18](https://github.com/demergent-labs/azle/assets/81568615/05d54e32-4dfa-433a-a725-00f504b3c16d)
+
 
 To create canister smart contracts it is common practice to use an SDK. The IC SDK is a common entry point. The IC SDK supports a few programming languages out of the box.
 
@@ -61,12 +70,8 @@ There are a few components worth expanding on:
 * Canister Development Kit (CDK): a CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. The IC SDK comes with a few CDKs already installed for you so you can use them in the language of your choice. For example, the IC SDK comes with the Rust CDK already installed. CDKs that are not installed but available for developers include the:
 To build a canister with a particular programming language, one needs a canister development kit (CDK) for their particular language. A CDK is an adapter used by the IC SDK that provides a programming language with the features necessary to create and manage canisters. 
 
-To make starting easier, the IC SDK already comes with CDK for multiple languages.
+![Screenshot from 2023-11-20 10-06-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/06a33f75-8b42-440a-a4d4-f24d184c3e43)
 
-Python CDK.
-TypeScript CDK.
-C++ CDK.
-Since CDKs are components used by the SDK, some developers choose to use the CDK directly (without the IC SDK), but typically are used as part of the whole IC SDK.
 
 * dfx: dfx is the command-line interface for the IC SDK. This is why many commands for the IC SDK start with the command "dfx .." such as dfx new or dfx stop.
 
