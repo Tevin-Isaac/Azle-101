@@ -14,14 +14,15 @@ In simpler terms, the Internet Computer is a network of computers that work toge
 Canisters can be developed in a variety of languages, such as Rust, JavaScript, Python, and TypeScript and Motoko.
 ![Screenshot from 2023-11-15 00-03-28](https://github.com/demergent-labs/azle/assets/81568615/267199ec-82a2-4738-88c5-59e914175c74)
 ![Screenshot from 2023-11-15 00-03-43](https://github.com/demergent-labs/azle/assets/81568615/0ef18b87-7d7c-4d7c-9f2f-fc7c1aa22f9c)
-![Screenshot from 2023-11-15 00-07-28](https://github.com/demergent-labs/azle/assets/81568615/7a47a938-ac7a-4cfe-99fb-20a08a6c0bc7)
+
 
 ![Screenshot from 2023-11-08 01-05-00](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/d2ed439c-d47d-4c0c-a1f6-eb51659ac5e5)
 ![Screenshot from 2023-11-08 01-08-55](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/e445adf2-f65f-4105-807c-99846e2b574e)
 ![Screenshot from 2023-11-08 01-10-30](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/8ec18e0c-bff4-4163-bc61-7a8212066921)
 ![Screenshot from 2023-11-20 09-25-10](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/c9a627f6-d958-4550-a43a-780e8bbbe477)
 ![Screenshot from 2023-11-20 09-26-21](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/46713dfa-593c-421d-b84d-042771d6956c)
-![Screenshot from 2023-11-20 10-04-31](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/60b98d81-2aac-4e99-8444-be30282e18c5)
+![Screenshot from 2023-11-20 10-09-36](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/ecf90f22-36b0-4a79-a3a8-f832336fa4d4)
+
 
 
 
