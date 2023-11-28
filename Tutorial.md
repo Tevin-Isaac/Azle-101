@@ -25,9 +25,9 @@ Canisters can be developed in a variety of languages, such as Rust, JavaScript, 
 
 
 
-![Screenshot from 2023-11-20 10-09-36](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/bef7c192-46c8-46e5-94bc-f89c4511e701)
-![Screenshot from 2023-11-20 10-12-22](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/399de13f-9e90-4a2b-8145-b38fee17015e)
-![Screenshot from 2023-11-20 10-13-29](https://github.com/Tevin-Isaac/Azle-101/assets/81568615/3112c94e-7337-4729-b621-540c4e6e3857)
+
+
+
 
 ![Screenshot from 2023-11-15 01-06-10](https://github.com/demergent-labs/azle/assets/81568615/f43ddf61-ba39-4fb3-9f01-fc32603bdde8)
 ![Screenshot from 2023-11-15 01-06-18](https://github.com/demergent-labs/azle/assets/81568615/05d54e32-4dfa-433a-a725-00f504b3c16d)
